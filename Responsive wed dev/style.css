@@ -1,3 +1,8 @@
+body {
+    font-family: "poppins", sans-serif;
+    margin: 0;
+}
+
 header {
     color: #ffffff;
     background-color: #284b63;
@@ -111,4 +116,31 @@ footer li a {
 
 footer li a:hover {
     color: #ffffff;
+}
+
+
+/* Media Query */
+
+
+/* @media screen and (min-width:800px) and (max-width:1024px) {
+    body {
+        background-color: blue;
+    }
+} */
+
+@media screen and (max-width:480px) {
+    .btn {
+        display: block;
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 32px;
+        margin: 0 0 8px 0;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    section {
+        padding: 25px 0 15px 0;
+    }
 }
